@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body>
+</meta charset="utf-8">
+<title>Sum of two numbers</title>
+<p id="demo"></p>
+<button onclick="twoNumbers()">add</button>
+<button onclick="twoMultiples()">multiply</button>
+<button onclick="tripleSum()">triple</button>
+<script>
+function twoNumbers(){
+var price1 = prompt("please enter a number");
+ var price2 = prompt("please enter a second number");
+ var total=parseInt(price1) + parseInt(price2);
+ document.getElementById("demo").innerHTML
+="The total is: " + total;
+}
+</script>
+<script>
+function twoMultiples(){
+  var price1 = prompt("please enter a number");
+  var price2 = prompt("please enter a second number");
+  var multiply = parseInt(price1) * parseInt(price2);
+ document.getElementById("demo").innerHTML
+ ="The answer is " +multiply;
+}
+</script>
+<script>
+function tripleSum(){
+   var price1 = prompt("please enter a number");
+   var price2 = prompt("please enter a second number");
+   var total=parseInt(price1) + parseInt(price2);
+   var multiple = 3 * total;
+ document.getElementById("demo").innerHTML
+ ="Triple the sum of both numbers is " +multiple;
+}
+</script>
+</head>
+</body>
+</html>
